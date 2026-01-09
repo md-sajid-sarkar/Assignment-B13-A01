@@ -258,3 +258,20 @@ font-weight: 400;
 color: rgba(98, 115, 130, 1);
 margin-top: 16px;
 }
+#footer-part{
+    padding: 120px 120px 30px 120px;
+    background-color: rgba(0, 25, 49, 1);
+    display: flex;
+    justify-content: space-between;
+}
+#footer-part h4{
+    font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+color: rgba(255, 255, 255, 1);
+}
+#footer-part ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
