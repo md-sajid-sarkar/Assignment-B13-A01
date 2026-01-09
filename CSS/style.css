@@ -18,6 +18,7 @@
     justify-content: space-between;
     padding: 16px 120px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navigation ul{
     list-style: none;
@@ -129,6 +130,8 @@ margin-top: 16px;
     padding: 60px 40px;
     text-align: center;
     margin: 44px 120px 0 120px;
+    /* flex-direction: column; */
+        /* margin: 44px 20px 0 20px; */
 }
 .card{
     text-align: center;
@@ -163,4 +166,48 @@ margin: 16px 0;
     justify-content: center;
     align-items: center;
     margin: 69.5px auto 20px;
+}
+.Second-Brain-Section-parent{
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.brain-image{
+
+}
+.solution h5{
+    font-size: 16px;
+font-weight: 500;
+text-transform: uppercase;
+color: rgba(70, 145, 101, 1);
+margin-top: 120px;
+}
+.solution h2{
+    font-size: 48px;
+font-weight: 700;
+color: rgba(0, 25, 49, 1);
+margin-top: 16px;
+}
+.solution p{
+    font-size: 16px;
+font-weight: 400;
+color: rgba(98, 115, 130, 1);
+margin-top: 16px;
+}
+
+.point ul{
+    list-style: none;
+    margin-top: 40px;
+    font-size: 16px;
+font-weight: 500;
+color: rgba(0, 25, 49, 1);
+}
+.point li{
+    margin-bottom: 16px;
+
+}
+.point i{
+    color: rgba(48, 184, 104, 1)j;
 }
